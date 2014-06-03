@@ -39,8 +39,7 @@ set :rails_env, fetch(:rails_env) || fetch(:stage)
 
 ## Gotchas
 *  Not compatible with Capistrano 2.
-*  Probably not compatible with the official [capistrano-rails
-*  gem](https://github.com/capistrano/rails/)
+*  Probably not compatible with the official [capistrano-rails gem](https://github.com/capistrano/rails/)
 *  Only compatible with git as SCM.
 *  We don't use the default public/assets/manifest.yml location. We store the 
 manifest in config/ so that each deploy retains a copy and never overwrites a 
